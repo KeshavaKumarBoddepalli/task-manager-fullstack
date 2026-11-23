@@ -90,3 +90,5 @@ Task statuses are `PENDING`, `IN_PROGRESS`, and `COMPLETED`.
 ## Deployment
 
 The planned deployment targets are Supabase (PostgreSQL), Render (Spring Boot), and Vercel (Angular). Free-plan availability and limits can change; check each provider's current terms before deployment.
+
+The backend's `Dockerfile` uses a Java 21 build stage and a Java 21 runtime image. Render builds it from the `backend/` directory, and the application listens on Render's `PORT` environment variable.
