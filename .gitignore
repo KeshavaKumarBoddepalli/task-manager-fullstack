@@ -1,0 +1,24 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code workspace files
+.vscode/
+
+# Maven
+backend/target/
+backend/.mvn/
+
+# Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Environment and secret files
+.env
+.env.*
+*.properties.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
