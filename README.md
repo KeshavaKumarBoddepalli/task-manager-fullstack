@@ -71,7 +71,7 @@ npm test -- --watch=false
 npm run build
 ```
 
-The production API URL is configured separately in `frontend/src/environments/environment.production.ts`. Replace its placeholder with the deployed backend URL when the backend is deployed.
+The production API URL is configured in `frontend/src/environments/environment.production.ts`. It points to the deployed Render API; update it if the Render service URL changes. This URL is public configuration, not a secret.
 
 ## REST API
 
