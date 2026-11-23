@@ -7,7 +7,6 @@
 
 # Maven
 backend/target/
-backend/.mvn/
 
 # Angular
 frontend/node_modules/
